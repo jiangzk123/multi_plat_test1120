@@ -1,0 +1,43 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "buildAndCopy",
+        "dependsOn": ["echo","buildDynamicLib","buildMain", "copyFiles"]
+      },
+      {
+        "label": "Run Batch File",
+        "type": "shell",
+        "command": "${workspaceFolder}\\preLaunchTask.bat",
+        "problemMatcher": []
+      },
+      {
+        "label": "echo",
+        "type": "shell",
+        "command": "echo start buildAndCopy"
+      },
+      {
+        "label": "buildDynamicLib",
+        "type": "shell",
+        "command": "cmake",
+        "args": ["--build", "${workspaceFolder}/../lib/addlib/build"],
+        "problemMatcher": []
+      },
+      {
+        "label": "buildMain",
+        "type": "shell",
+        "command": "cmake",
+        "args": ["--build", "${workspaceFolder}/build"],
+        "problemMatcher": []
+      },
+      {
+        "label": "copyFiles",
+        "type": "shell",
+        "command": "cp",
+        "args": [
+          "${workspaceFolder}/../lib/addlib/build/libadd.dll",
+          "${workspaceFolder}/build"
+        ]
+      }
+    ]
+  }
