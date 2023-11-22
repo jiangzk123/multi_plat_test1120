@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../lib/addlib/include/add.h
+
+.././include/swap.h
+
+/home/jiangzk/multi_plat_test1120/prj1115/print/main.cpp
+iostream
+-
+swap.h
+/home/jiangzk/multi_plat_test1120/prj1115/print/swap.h
+add.h
+/home/jiangzk/multi_plat_test1120/prj1115/print/add.h
+
+/home/jiangzk/multi_plat_test1120/prj1115/print/src/swap.cpp
+swap.h
+/home/jiangzk/multi_plat_test1120/prj1115/print/src/swap.h
+

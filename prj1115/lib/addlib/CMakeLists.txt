@@ -8,4 +8,4 @@ add_library(${lib_name} SHARED src/add.cpp)
 #添加包含目录
 include_directories(./include)
 # 设置动态库的输出路径
-set_target_properties(${lib_name} PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/lib)
+#set_target_properties(${lib_name} PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/lib)

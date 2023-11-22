@@ -6,9 +6,15 @@
         "dependsOn": ["echo","buildDynamicLib","buildMain", "copyFiles"]
       },
       {
-        "label": "Run Batch File",
+        "label": "Run Batch File windows",
         "type": "shell",
-        "command": "${workspaceFolder}\\preLaunchTask.bat",
+        "command": "${workspaceFolder}//preLaunchTask.bat",
+        "problemMatcher": []
+      },
+      {
+        "label": "Run Batch File linux",
+        "type": "shell",
+        "command": "${workspaceFolder}/preLaunchTask.sh",
         "problemMatcher": []
       },
       {

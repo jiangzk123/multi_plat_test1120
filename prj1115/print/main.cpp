@@ -1,6 +1,8 @@
 #include <iostream>
 #include "swap.h"
 #include "add.h"
+//#include <spdlog/spdlog.h>
+
 int main(int argc, char* argv[]) {
     #ifdef _WIN32
         std::cout << "This is a Windows platform." << std::endl;
@@ -11,6 +13,9 @@ int main(int argc, char* argv[]) {
     #else
         std::cout << "Unknown platform." << std::endl;
     #endif
+    // 初始化 spdlog
+    //spdlog::set_level(spdlog::level::info);
+    //spdlog::info("Hello, spdlog!");
     std::cout << "参数个数:" << argc << std::endl;
     std::cout << "参数内容:" << std::endl; 
     for (int i = 0; i < argc; ++i) 

@@ -8,7 +8,10 @@
             "name": "(gdb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/main_test1.exe",
+           //windows下
+           // "program": "${workspaceFolder}/build/main_test1.exe",
+           //linux下
+           "program": "${workspaceFolder}/build/main_test1",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -28,8 +31,10 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "Run Batch File"
-
+            //运行windows的编译
+            //"preLaunchTask": "Run Batch File windows"
+            //运行linux的编译
+            "preLaunchTask": "Run Batch File linux"
         }
 
     ]

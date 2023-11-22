@@ -2,5 +2,5 @@
 
 int my_add(int a,int b)
 {
-    return 100*(a+b);
+    return 10*(a+b);
 }
