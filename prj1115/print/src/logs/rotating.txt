@@ -1,0 +1,6 @@
+[2023-11-24 16:26:36.540] [some_logger_name] [info] End of example.
+[2023-11-25 09:26:59.714] [some_logger_name] [info] End of example.
+[2023-11-27 10:30:02.064] [some_logger_name] [info] rotating_example[jzk123] 
+[2023-11-27 10:30:02.077] [some_logger_name] [info] End of example.
+[2023-11-27 10:31:25.861] [some_logger_name] [info] rotating_example[jzk123] 
+[2023-11-27 10:31:27.741] [some_logger_name] [info] End of example.
