@@ -1,0 +1,1 @@
+/usr/bin/c++    -g -Wall -g   CMakeFiles/main_test1.dir/main.cpp.o CMakeFiles/main_test1.dir/src/swap.cpp.o CMakeFiles/main_test1.dir/src/example.cpp.o  -o main_test1 -rdynamic /usr/local/lib/libspdlog.a /home/jiangzk/multi_plat_test1120/prj1115/lib/addlib/build/libadd.so -lpthread -Wl,-rpath,/home/jiangzk/multi_plat_test1120/prj1115/lib/addlib/build 

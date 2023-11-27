@@ -1,0 +1,6 @@
+[2023-11-24 16:26:36.540] [file_logger] [info] End of example.
+[2023-11-25 09:26:59.714] [file_logger] [info] End of example.
+[2023-11-27 10:30:02.064] [file_logger] [info] basic_example[jzk123] 
+[2023-11-27 10:30:02.077] [file_logger] [info] End of example.
+[2023-11-27 10:31:24.598] [file_logger] [info] basic_example[jzk123] 
+[2023-11-27 10:31:27.741] [file_logger] [info] End of example.

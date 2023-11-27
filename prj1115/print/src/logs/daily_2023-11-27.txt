@@ -1,0 +1,4 @@
+[2023-11-27 10:30:02.065] [daily_logger] [info] daily_logger[jzk123] 
+[2023-11-27 10:30:02.077] [daily_logger] [info] End of example.
+[2023-11-27 10:31:27.732] [daily_logger] [info] daily_logger[jzk123] 
+[2023-11-27 10:31:27.741] [daily_logger] [info] End of example.
