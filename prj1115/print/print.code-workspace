@@ -7,5 +7,9 @@
 			"path": "../lib/addlib"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"thread": "cpp"
+		}
+	}
 }

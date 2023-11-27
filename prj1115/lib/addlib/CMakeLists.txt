@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -Wall"  )
 set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_CXX_STANDARD 11)  # 或者 14、17，取决于你的需要
 #设置动态库名称
 set(lib_name  "add" )
 # 添加动态库的源文件
