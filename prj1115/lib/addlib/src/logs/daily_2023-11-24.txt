@@ -1,1 +1,0 @@
-[2023-11-24 16:21:31.786] [daily_logger] [info] End of example.

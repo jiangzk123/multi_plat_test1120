@@ -1,3 +1,0 @@
-/home/jiangzk/multi_plat_test1120/prj1115/print/build/CMakeFiles/rebuild_cache.dir
-/home/jiangzk/multi_plat_test1120/prj1115/print/build/CMakeFiles/edit_cache.dir
-/home/jiangzk/multi_plat_test1120/prj1115/print/build/CMakeFiles/main_test1.dir
